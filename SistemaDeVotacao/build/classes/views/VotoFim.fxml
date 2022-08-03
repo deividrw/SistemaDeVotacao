@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="288.0" prefWidth="239.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VotoFimController">
+   <children>
+      <Label layoutX="55.0" layoutY="54.0" text="Presidente" textFill="#4000ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" text="Seus Votos!!" textFill="RED">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnApurar" layoutX="62.0" layoutY="202.0" mnemonicParsing="false" onAction="#BotaoApurar1" text="Ver meus votos" textFill="#fa0000" />
+      <Label layoutX="48.0" layoutY="117.0" text="Governador" textFill="#4000ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultadoPres" layoutX="84.0" layoutY="89.0" text="Resultado" textFill="#12ff1a" />
+      <Label fx:id="lblResultadoGov" layoutX="85.0" layoutY="152.0" text="Resultado" textFill="#00fc19" />
+      <Button layoutX="40.0" layoutY="248.0" mnemonicParsing="false" onAction="#BotaoCont" text="CONTINUAR VOTAÇÃO" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaGovController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="925.0" layoutY="1.0" opacity="0.15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/BandeiraMT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="63.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Ed.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="258.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/valdemiro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="473.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Borba.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="690.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/ines.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="29.0" text="Eleições do Brasil 2022" textFill="#089035">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="113.0" text="GORVERNADOR" textFill="#e10000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnVotoGov" layoutX="493.0" layoutY="481.0" mnemonicParsing="false" onAction="#BotaoVotarGov" text="VOTAR!" />
+      <TextField fx:id="txtNumGov" layoutX="274.0" layoutY="481.0" />
+      <Label layoutX="49.0" layoutY="486.0" prefHeight="21.0" prefWidth="211.0" text="ESCOLHA SEU CANDIDATO" textFill="#ff0909" />
+      <Label fx:id="voto171" layoutX="342.0" layoutY="349.0" text="171" textFill="#2b01ff" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="voto511" layoutX="534.0" layoutY="340.0" text="511" textFill="#2b01ff" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="voto154" layoutX="750.0" layoutY="340.0" text="154" textFill="#2b01ff" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="voto100" layoutX="120.0" layoutY="349.0" prefHeight="27.0" prefWidth="38.0" text="100" textFill="#2b01ff" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

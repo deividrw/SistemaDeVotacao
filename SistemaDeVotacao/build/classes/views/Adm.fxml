@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdmController">
+   <children>
+      <Label layoutX="72.0" layoutY="149.0" text="Governador" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="149.0" text="Presidente" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="35.0" text="Apurar">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnApurar" layoutX="210.0" layoutY="107.0" mnemonicParsing="false" onAction="#BotaoApurar" text="Apurar" />
+      <TextArea fx:id="txtB" editable="false" layoutX="245.0" layoutY="207.0" prefHeight="222.0" prefWidth="217.0" />
+      <TextArea fx:id="txtA" editable="false" layoutX="14.0" layoutY="207.0" prefHeight="222.0" prefWidth="217.0" />
+   </children>
+</AnchorPane>

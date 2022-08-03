@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <ImageView fitHeight="513.0" fitWidth="748.0" layoutX="-2.0" layoutY="1.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/tse.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnInicio" layoutX="135.0" layoutY="283.0" mnemonicParsing="false" onAction="#BotaoInicio" text="INICIAR VOTAÇÃO" textAlignment="CENTER" textFill="#f50f0f" underline="true">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <effect>
+            <Reflection bottomOpacity="0.28" fraction="0.66" topOpacity="0.59" />
+         </effect>
+      </Button>
+      <Label layoutX="70.0" layoutY="104.0" text="Eleições do Brasil 2022" textFill="#16a142">
+         <font>
+            <Font size="59.0" />
+         </font>
+      </Label>
+      <Button fx:id="brnAdm" ellipsisString="" layoutX="25.0" layoutY="29.0" mnemonicParsing="false" onAction="#BotaoAdm" text="APURAR" textFill="#ff0707">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
